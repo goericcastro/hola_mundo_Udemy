@@ -27,7 +27,7 @@ conDecimales = 20.2 #float
 complejo = 1j
 #print(palabra, oracion, entero, conDecimales, complejo)
 
-lista = [1, 2, 2, 5]
+lista = [1, 2, 2, 5, "hola mundo"]
 lista2 = lista.copy()
 lista.append(4)
 #print(lista)
@@ -49,5 +49,8 @@ count_list2 = len(lista2)
 #print(lista[0], lista2[3]) #busca una columna en la lista
 
 #lista.pop() #borra datos de la lista
-lista.remove(2)
+#lista.remove(2) #borra datos numericos en lista
+#lista.reverse() #coloca inverdamente los datos de una lista
+#lista.sort() #coloca inversamente los datos pero tienen que ser los mismos tipos de datos
+
 print(lista)
