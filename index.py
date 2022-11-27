@@ -27,7 +27,7 @@ conDecimales = 20.2 #float
 complejo = 1j
 #print(palabra, oracion, entero, conDecimales, complejo)
 
-lista = [1, 2, 2]
+lista = [1, 2, 2, 5]
 lista2 = lista.copy()
 lista.append(4)
 #print(lista)
@@ -36,5 +36,18 @@ lista.append(4)
 
 lista2 = lista.copy()
 
-print(lista, lista2.count(2))
-print(len(lista))
+#print(lista, lista2.count(2))
+
+#print(lista, lista2, len(lista))
+
+#print(len(lista), len(lista2))
+
+count_list = len(lista)
+count_list2 = len(lista2)
+
+#print(count_list, count_list2)
+#print(lista[0], lista2[3]) #busca una columna en la lista
+
+#lista.pop() #borra datos de la lista
+lista.remove(2)
+print(lista)
