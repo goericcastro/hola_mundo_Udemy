@@ -9,12 +9,32 @@ if 3 > 5:
 x = 5
 y = "chanchito feliz"
 
-print(x, y)
+#print(x, y)
 
 email = "eric.castro.ingenieria@gmail.com"
 
-print(email)
+#print(email)
 
 inicio =  "Hola "
 final = "mundo"
-print(inicio + final)
+#print(inicio + final)
+
+palabra = "hola mundo"
+oracion = "hola mundo con comilla doble"
+
+entero = 20 #integer
+conDecimales = 20.2 #float
+complejo = 1j
+#print(palabra, oracion, entero, conDecimales, complejo)
+
+lista = [1, 2, 2]
+lista2 = lista.copy()
+lista.append(4)
+#print(lista)
+
+#limpia la lista
+
+lista2 = lista.copy()
+
+print(lista, lista2.count(2))
+print(len(lista))
