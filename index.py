@@ -14,3 +14,7 @@ print(x, y)
 email = "eric.castro.ingenieria@gmail.com"
 
 print(email)
+
+inicio =  "Hola "
+final = "mundo"
+print(inicio + final)
