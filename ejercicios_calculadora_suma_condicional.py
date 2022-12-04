@@ -23,5 +23,17 @@ if primer_numero == "chanchito feliz" or segundo_numero == "chanchito feliz":
     
  print("ingresaste mal los numeros, prueba ingresar solo numeros")
  
+
+operador = input("Ingrese operador: ")
+
+if operador == "+":
+    print("Suma: ", primer_numero + segundo_numero)
+elif operador == "-":
+    print("Resta: ", primer_numero - segundo_numero)
+elif operador == "*":
+    print("Multiplicación: ", primer_numero * segundo_numero)
+elif operador == "/":
+    print("División: ", primer_numero / segundo_numero)    
+    
 else:
-    print(primer_numero + segundo_numero)
+    print("El operador es invalido")
