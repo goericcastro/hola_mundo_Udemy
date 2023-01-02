@@ -7,4 +7,18 @@ class Usuario:
         print('Hola!, mi nombre es:', self.nombre, self.apellido)
         
 class Admin(Usuario):
-    
+    def superSaludo(self):
+        print('Hola, soy administradora:', self.nombre, self.apellido)
+        
+usuario = Usuario('Felipe', 'Feliz')
+usuario2 = Usuario('Eric', 'Castro')
+usuario3 = Usuario('bran', ' Castro')
+
+usuario3.nombre = 'Brandon'
+   
+usuario.saludo()   
+usuario2.saludo()
+usuario3.saludo()
+        
+admin = Admin('Dhara', 'Castro')
+admin.superSaludo()
