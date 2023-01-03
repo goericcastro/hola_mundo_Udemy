@@ -14,7 +14,7 @@ usuario = Usuario('Felipe', 'Feliz')
 usuario2 = Usuario('Eric', 'Castro')
 usuario3 = Usuario('bran', ' Castro')
 
-usuario3.nombre = 'Brandon'
+usuario3.nombre = 'Brandon' #edita el nombre de self.nombre de usuario3
    
 usuario.saludo()   
 usuario2.saludo()
