@@ -15,6 +15,6 @@ while True:
 
 resultado = 0
 for x in list:
-    resultado = x + 1
+    resultado = resultado + x
 
 print(resultado)
