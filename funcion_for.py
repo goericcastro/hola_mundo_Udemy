@@ -14,4 +14,3 @@ def vocal(palabra):
         return vocal
 
 print(vocal(palabra))
-    
